@@ -1,0 +1,13 @@
+# Core
+tensorflow==2.10.1           # Trained & tested with TF 2.10.x (Python 3.8–3.10)
+numpy>=1.23,<2.0
+pandas>=1.5,<2.3
+scikit-learn>=1.2,<1.6
+matplotlib>=3.6,<3.9
+Pillow>=9.4,<11.0
+
+# Hyperparameter tuning (used in earlier experiments)
+keras-tuner==1.4.6
+
+# Nice-to-haves
+tqdm>=4.64,<5.0
