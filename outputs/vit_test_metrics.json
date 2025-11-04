@@ -1,0 +1,22 @@
+{
+  "AP": 0.9985047190226041,
+  "F1_best": 0.9850746263584317,
+  "thr_best": 0.21000000000000002,
+  "cm_best": {
+    "tn": 332,
+    "fp": 4,
+    "fn": 0,
+    "tp": 132
+  },
+  "img_size": 128,
+  "vit": {
+    "patch": 16,
+    "dim": 256,
+    "depth": 6,
+    "heads": 4,
+    "mlp_dim": 512,
+    "drop": 0.1,
+    "l2": 1e-06
+  },
+  "test_scenes_file": "outputs\\test_scenes.txt"
+}
